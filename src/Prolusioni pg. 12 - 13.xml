@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE TEI SYSTEM "tei lite.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- Sezione per la codifica del titolo dell'edizione digitale -->
+                <title>
+                Prolusioni all'Università di Ginevra: versione elettronica <BR>"Prime tre conferenze"</BR> 
+                </title>
+                <respStmt>
+                    <resp>conversione TEI P5 a cura di </resp>
+                    <name> Francesco Paolo Giumetti </name>
+                    <name> Simone Bini </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p id="1">Edizione Francese: Bouquet-Engler 2002: pp.143-172</p>
+                <p id="2">Edizione Italiana: Basata sull'edizione Bouquet-Engler 2002, con note di commento parziale in E.Fadda 2006</p>
+            <publicationStmt>
+                <!-- Sezione per la codifica dei dati di diffusione e distribuzione dell'edizione-->
+                <publishe>Università di Pisa</publishe>
+                <date>2021-06-28</date>
+            </publicationStmt>
+            <sourceDesc><bibl>
+                <!-- Descrizione della fonte primaria-->
+                <title>Prolusioni all'Università di Ginevra</title>
+                <author>Ferdinand de Saussure (1857-1913)</author>
+                <publisher>
+            </sourceDesc>
+        <fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+         <p> <!-- Contenuto testuale --> du russe et du slave, comme M.N.Baudouin de Courtenay, M. Kruszewski.
+         <BR>Le point de vue auquel nous sommes arrivès, Messieurs, et qui est simplement le point de vue dont s'inspire sans exception l'etude de langues,</BR>
+         <BR>en toutes ses branches, fait voir très clairement qu'il n'y a pas de sèparation entre l'ètude du langage etl'ètude des langues,</BR>
+         <BR>ou l'ètude de telle ou telle langue ou famille de langues; mais que d'un autre còtè<!--modifica o di cotè--> chaque division et subdivision de langue reprèsente un document nouveau,</BR>
+         <BR>et intèressant au mème titre que tout autre, pour le fait universel du langage.</BR>
+         <BR>L'Universitè de Genève a tenu dès le premier jour, et à bon droit, à donner une place à la science du langage; elle l'a fait en crèant le cours de Linguistique et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au parler humain.</BR>
+         <BR>Il est presque inutile de dire que cet enseignement, donnè depuis quinze ans, avec une èrudition, une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,</BR>
+         <BR>-que cet enseignement n'a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes particulier comme celui qui se rapporte aux langues romanes.</BR></p>
+        </body>
+    </text>
+</TEI>
