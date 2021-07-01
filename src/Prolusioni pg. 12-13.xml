@@ -30,9 +30,32 @@
             </sourceDesc>
         <fileDesc>
     </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fr">
+                <p id="Pericope1"> <!-- Contenuto testuale --> du russe et du slave,
+                 comme M.N.Baudouin de Courtenay, M. Kruszewski.</p>
+                <p id="Pericope2">Le point de vue auquel nous sommes arrivès, Messieurs, et qui est simplement
+                 le point de vue dont s'inspire sans exception l'etude de langues
+                 en toutes ses branches, fait voir très clairement qu'il n'y a 
+                 pas de sèparation entre l'ètude du langage etl'ètude des langues,
+                 ou l'ètude de telle ou telle langue ou famille de langues; mais que d'un autre còtè<!--modifica o di cotè-->
+                 chaque division et subdivision de langue reprèsente un document nouveau,
+                 et intèressant au mème titre que tout autre, pour le fait universel du langage.</p>
+                <p id="Pericope3">L'Universitè de Genève a tenu dès le premier jour, et à bon droit,
+                 à donner une place à la science du langage; elle l'a fait en crèant le cours de Linguistique
+                 et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au parler humain.
+                 Il est presque inutile de dire que cet enseignement, donnè depuis quinze ans, avec une èrudition,
+                 une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,
+                -que cet enseignement n'a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
+                 particulier comme celui qui se rapporte aux langues romanes.</p>               
+                
+            </div>    
+        </body>
+    </text>
     <sourceDoc xml:id="Pagina 12"> 
         <surface xml:lang="fr">
-            <graphic url='pag12.png' width='845.666666px' height='593.666666px' />
+            <graphic url='https://github.com/francescopaolo1991/Giumetti_Bini/blob/main/src/pag12.png' width='845.666666px' height='593.666666px' />
             <zone ulx="218" uly="68" lrx="637" lry="587" />
                 <line>du russe et du slave, comme<name type="person"> M.N.Baudouin</name></line>
                 <line><name type="person">de Courtenay, M. Kruszewski</name>.<del rend="overstrike"></del></line>
@@ -70,24 +93,22 @@
 
             <graphic url='pagina 13.png' width='845.666666px' height='593.666666px' />
             <zone ulx="218" uly="72" lrx="624" lry="527" />
-                <line>                                </line>
+                <line>ou aux langues germaniques, ou aux</line>
+                <line>langues indo-européennes, ou aux langues sémitiques, etc.</line>
+                <line>Au contraire, il appelle autour de lui ces études</line>
+                <line>particulières, et le témoignage le plus autorisé,</line>
+                <line>en même temps que le plus agréable que j’en</line>
+                <line>puisse apporter, c’est que le nouveau cours de</line>
+                <line>langues indo-européennescréé par le Département</line>
+                <line>de l’Instruction Publiquel’a été en pleine confor</line>
+                <line>mité de vues avecl’éminent titulaire</line>
+                <line> de la chaire de linguistique</line>
+                <line>Plus on aura dans un même centre académique de spécialités linguistiques vouées à l’étude d’un certain groupe de langues, plus aussi l’ensemble de ces études prendront de consistance par leur appui mutuel, et plus on apercevra les traits générauxde la discipline, qui sont comme brisés et morcelés là où cessent tout à coup l’information, l’intérêt, et la vie par l’absence de disciples ou de maîtres.><Comme linguiste, on sera certainement porté à souhaiter le développement indéfinides chaires de linguistique (j’avoue toutefois que ce développement indéfini pourrait avoir des inconvénients inquiétants à la longue pour tout le monde).>
 
-        </surface>
-    
+        </surface>  
     
     
     
     </sourceDoc>
-    <text>
-        <body>
-         <p> <!-- Contenuto testuale --> du russe et du slave, comme M.N.Baudouin de Courtenay, M. Kruszewski.
-         <BR>Le point de vue auquel nous sommes arrivès, Messieurs, et qui est simplement le point de vue dont s'inspire sans exception l'etude de langues,</BR>
-         <BR>en toutes ses branches, fait voir très clairement qu'il n'y a pas de sèparation entre l'ètude du langage etl'ètude des langues,</BR>
-         <BR>ou l'ètude de telle ou telle langue ou famille de langues; mais que d'un autre còtè<!--modifica o di cotè--> chaque division et subdivision de langue reprèsente un document nouveau,</BR>
-         <BR>et intèressant au mème titre que tout autre, pour le fait universel du langage.</BR>
-         <BR>L'Universitè de Genève a tenu dès le premier jour, et à bon droit, à donner une place à la science du langage; elle l'a fait en crèant le cours de Linguistique et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au parler humain.</BR>
-         <BR>Il est presque inutile de dire que cet enseignement, donnè depuis quinze ans, avec une èrudition, une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,</BR>
-         <BR>-que cet enseignement n'a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes particulier comme celui qui se rapporte aux langues romanes.</BR></p>
-        </body>
-    </text>
+
 </TEI>
