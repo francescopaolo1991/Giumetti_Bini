@@ -30,17 +30,17 @@
             </sourceDesc>
         <fileDesc>
     </teiHeader>
-    <sourceDoc> 
-        <surface>
+    <sourceDoc xml:id="Pagina 12"> 
+        <surface xml:lang="fr">
             <graphic url='pag12.png' width='845.666666px' height='593.666666px' />
             <zone ulx="218" uly="68" lrx="637" lry="587" />
-                <line>du russe et du slave, comme M.N.Baudouin</line>
-                <line>de Courtenay, M. Kruszewski.</line>
+                <line>du russe et du slave, comme<name type="person"> M.N.Baudouin</name></line>
+                <line><name type="person">de Courtenay, M. Kruszewski</name>.<del rend="overstrike"></del></line>
                 <line>Le point de vue auquel nous sommes arrivès,</line>
                 <line>Messieurs, et qui est simplement le point de vue</line>
-                <line>dont s'inspire sans exception l'etude de langues, en toutes</line>
+                <line><del rend="overstrike"></del>dont s'inspire sans exception l'etude de langues, en toutes</line>
                 <line>ses branches, fait voir très clairement qu'il n'y a</line>
-                <line>pas de sèparation entre l'ètude du langage,<line>
+                <line>pas de sèparation entre l'ètude du langage,</line>
                 <line>etl'ètude des langues,</line>
                 <line>ou l'ètude de telle ou telle langue </line>
                 <line>mais que d'un autre còtè chaque</line>
@@ -52,8 +52,31 @@
                 <line>une place à la science du langage; elle l'a fait</line>
                 <line>en crèant le cours de Linguistique,</line>
                 <line>et a rèsumè ainsi sous un nom</line>
-                
+                <line>très juste l'ensemble des ètudes relatives au</line>
+                <line>parler humain.Il est presque inutile de dire</line>
+                <line>que cet enseignement, donnè depuis quinze ans, avec</line>
+                <line>une èrudition, une expèrience,<del rend="overstrike"></del></line>
+                <line>que vous ne vous attendez</line>
+                <line>pas un seul instant à retrouver dans ces confèrences,-</line>
+                <line>que cet enseignement n'a jamais</line>
+                <line>rien eu dans son programme qui pùt exclure tel corps d'ètudes</line>
+                <line>particulier comme celui qui se rapporte aux langues romanes.</line>             
+
+
         </surface>      
+    </sourceDoc>
+    <sourceDoc xml:id="pagina 13">
+        <surface>
+
+            <graphic url='pagina 13.png' width='845.666666px' height='593.666666px' />
+            <zone ulx="218" uly="72" lrx="624" lry="527" />
+                <line>                                </line>
+
+        </surface>
+    
+    
+    
+    
     </sourceDoc>
     <text>
         <body>
