@@ -32,25 +32,68 @@
     </teiHeader>
     <text>
         <body>
-            <div xml:lang="fr">
-                <p id="Pericope1"> <!-- Contenuto testuale --> du russe et du slave,
+            <div xml:id="Foglio 12-13" xml:lang="fr">
+                <p xml:id="Pericope1"> <!-- Contenuto testuale --> du russe et du slave,
                  comme M.N.Baudouin de Courtenay, M. Kruszewski.</p>
-                <p id="Pericope2">Le point de vue auquel nous sommes arrivès, Messieurs, et qui est simplement
+                <p xml:id="Pericope2">Le point de vue auquel nous sommes arrivès, Messieurs, et qui est simplement
                  le point de vue dont s'inspire sans exception l'etude de langues
                  en toutes ses branches, fait voir très clairement qu'il n'y a 
                  pas de sèparation entre l'ètude du langage etl'ètude des langues,
                  ou l'ètude de telle ou telle langue ou famille de langues; mais que d'un autre còtè<!--modifica o di cotè-->
                  chaque division et subdivision de langue reprèsente un document nouveau,
                  et intèressant au mème titre que tout autre, pour le fait universel du langage.</p>
-                <p id="Pericope3">L'Universitè de Genève a tenu dès le premier jour, et à bon droit,
+                <p xml:id="Pericope3">L'Universitè de Genève a tenu dès le premier jour, et à bon droit,
                  à donner une place à la science du langage; elle l'a fait en crèant le cours de Linguistique
-                 et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au parler humain.
-                 Il est presque inutile de dire que cet enseignement, donnè depuis quinze ans, avec une èrudition,
+                 et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au parler humain.</p>                 
+                <p xml:id="Pericope 4"> Il est presque inutile de dire que cet enseignement, donnè depuis quinze ans, avec une èrudition,
                  une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,
                 -que cet enseignement n'a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
-                 particulier comme celui qui se rapporte aux langues romanes.</p>               
+                 particulier comme celui qui se rapporte aux langues romanes, ou aux langues germaniques, ou aux
+                 langues indo-européennes, ou aux langues sémitiques, etc.></p> 
+                <p xml:id="Pericope 5">Au contraire, il appelle autour de lui ces études particulières,
+                 et le témoignage le plus autorisé, en même temps que le plus agréable que j’en puisse apporter,
+                 c’est que le nouveau cours de langues indo-européennescréé par le Département de l’Instruction
+                 Publiquel’a été en pleine conformité de vues avecl’éminent titulaire de la chaire de linguistique2.</p>
+                <p xml:id="Pericope 6">Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
+                l’étude d’un certain groupe de langues, plus aussi l’ensemble de ces études prendront de consistance par 
+                leur appui mutuel, et plus on apercevra les traits générauxde la discipline, qui sont comme brisés et 
+                morcelés là où cessent tout à coup l’information, l’intérêt, et la vie par l’absence de disciples ou de 
+                maîtres.</p>
+                <p xml:id="Pericope 7">Comme linguiste, on sera certainement porté à souhaiter le développement 
+                indéfinides chaires de linguistique (j’avoue toutefois que ce développement indéfini pourrait avoir
+                des inconvénients inquiétants à la longue pour tout le monde).                             
                 
-            </div>    
+            </div>
+            <div xml:id="Traduzione italiana fogli 12-13" xml:lang="ita">
+                <p xml:id="Traduzione pericope 1">del russo e dello slavo, come N. Baudouin 
+                de Courtenay e Kruszewski.</p>
+                <p xml:id="Traduzione pericope 2"> punto di vista al quale siamo giunti, Signori, e che è semplicemente 
+                il punto di vista cui s’ispira, senza eccezione, lo studio delle lingue, 
+                in ogni sua branca, mostra molto chiaramente che non c’è separazione tra lo studio
+                del linguaggio e lo studio delle lingue, o lo studio di questa o quella famiglia di lingue;
+                ma che d’altro canto ogni divisione e suddivisione di lingua rappresenta un documento nuovo,
+                e interessante allo stesso titolo di qualunque altro, per il fatto universale del linguaggio.</p>
+                <p xml:id="Traduzione pericope 3">L’Università di Ginevra ha tenuto dal primo giorno, e a giusto titolo, a offrire un posto alla
+                cienza del linguaggio; l’ha fatto creando il corso di Linguistica e ha così ricompreso sotto un nome
+                più che adeguato l’insieme degli studi relativi al parlare [parler] umano.</p>
+                <p xml:id="Traduzione pericope 4">È quasi inutile dire che questo insegnamento, professato da quindici anni,
+                con un’erudizione, un’esperienza che voi non vi potrete mai aspettare da queste conferenze,
+                –che questo insegnamento non ha mai avuto nulla nel suo programma che potesse escludere qualche corpo
+                di studi particolari come quello che si riferisce alle lingue romanze, o alle lingue germaniche,
+                o alle lingue indoeuropee, o alle lingue semitiche, ecc.</p>
+                <p xml:id="Traduzione pericope 5">Al contrario,esso favorisce l’insorgere di tali studi particolari,
+                e la testimonianza più autorizzata, e allo stesso tempo la più gradevole che ne posso dare, 
+                è data dal fatto che il nuovo corso di lingue indoeuropee creato dal Dipartimento d’Istruzione Pubblica
+                è stato fatto in piena conformità di vedute con l’eminente titolare della cattedra di linguistica.</p>
+                <p xml:id="Traduzione pericope 6">Più si avrà, in uno stesso centro accademico, una molteplicità di specializzazioni
+                linguistiche votate allo studio di un certo gruppo di lingue, più a loro volta tali studi assumeranno 
+                consistenza appoggiandosi l’uno all’altro, e più si comprenderanno i tratti generali della disciplina, 
+                che sono come rotti e spezzettati là ove d’un tratto vengono meno l’informazione, l’interesse e la vita 
+                per l’assenza di discepoli o di maestri.</p>
+                
+                
+                
+             
         </body>
     </text>
     <sourceDoc xml:id="Pagina 12"> 
