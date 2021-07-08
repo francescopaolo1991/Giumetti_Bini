@@ -13,8 +13,14 @@
                         <style>
                          h1{
                         color:blue;
+                        text-align:center;
+                         p{
+                        text-align:center;
+                        }
                          }
-                         div{
+                         .left{
+                        position:absolute;
+                        left:0px;
                         width:45%;
                         border-style:solid;
                         border-width:2px;
@@ -23,23 +29,42 @@
                         padding:15px;
                         font-size:20px;
                          }
+                         .right{
+                        position:absolute;
+                        right:0px;
+                        width:45%;
+                        border-style:solid;
+                        border-width:2px;
+                        text-align:justify;
+                        margin:20px;
+                        padding:15px;
+                        font-size:20px;
+
                         </style>                     
                     </head> 
                     <body>  
                         <h1>Progetto Esame Codifica di Testi anno 2020-21</h1>
                         <p> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></p>
-                        <div>
-                            <xsl:value-of select="//tei:p[@xml:id='Pericope1']"/><br/>
-                            <xsl:value-of select="//tei:p[@xml:id='Pericope2']"/>
-                            <xsl:value-of select="//tei:p[@xml:id='Pericope3']"/>
-                            <xsl:value-of select="//tei:p[@xml:id='Pericope4']"/>
-                            <xsl:value-of select="//tei:p[@xml:id='Pericope5']"/>
-                            <xsl:value-of select="//tei:p[@xml:id='Pericope6']"/>
-                            <xsl:value-of select="//tei:p[@xml:id='Pericope7']"/>
+                        <p> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/></p>
+                        <div class="left">
+                            <xsl:value-of select="//tei:p[@xml:id='pericope1']"/><br/>
+                            <xsl:value-of select="//tei:p[@xml:id='pericope2']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='pericope3']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='pericope4']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='pericope5']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='pericope6']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='pericope7']"/>
                         
                         </div>
-                        <div>
-                        
+                        <div class="right">
+
+                            <xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 1']"/><br/>
+                            <xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 2']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 3']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 4']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 5']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 6']"/>
+                            <xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 7']"/> 
                         
                         
                         
