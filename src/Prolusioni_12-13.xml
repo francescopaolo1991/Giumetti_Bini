@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-model href="tei-lite.rng"?>
-<TEI xmlns="http://www.teic.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/10">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -46,21 +46,21 @@
                 <p xml:id="Pericope3">L'Universitè de Genève a tenu dès le premier jour, et à bon droit,
                  à donner une place à la science du langage; elle l'a fait en crèant le cours de Linguistique
                  et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au parler humain.</p>                 
-                <p xml:id="Pericope 4"> Il est presque inutile de dire que cet enseignement, donnè depuis quinze ans, avec une èrudition,
+                <p xml:id="Pericope4"> Il est presque inutile de dire que cet enseignement, donnè depuis quinze ans, avec une èrudition,
                  une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,
                 -que cet enseignement n'a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
                  particulier comme celui qui se rapporte aux langues romanes, ou aux langues germaniques, ou aux
                  langues indo-européennes, ou aux langues sémitiques, etc.></p> 
-                <p xml:id="Pericope 5">Au contraire, il appelle autour de lui ces études particulières,
+                <p xml:id="Pericope5">Au contraire, il appelle autour de lui ces études particulières,
                  et le témoignage le plus autorisé, en même temps que le plus agréable que j’en puisse apporter,
                  c’est que le nouveau cours de langues indo-européennescréé par le Département de l’Instruction
                  Publiquel’a été en pleine conformité de vues avecl’éminent titulaire de la chaire de linguistique2.</p>
-                <p xml:id="Pericope 6">Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
+                <p xml:id="Pericope6">Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
                 l’étude d’un certain groupe de langues, plus aussi l’ensemble de ces études prendront de consistance par 
                 leur appui mutuel, et plus on apercevra les traits générauxde la discipline, qui sont comme brisés et 
                 morcelés là où cessent tout à coup l’information, l’intérêt, et la vie par l’absence de disciples ou de 
                 maîtres.</p>
-                <p xml:id="Pericope 7">Comme linguiste, on sera certainement porté à souhaiter le développement 
+                <p xml:id="Pericope7">Comme linguiste, on sera certainement porté à souhaiter le développement 
                 indéfinides chaires de linguistique (j’avoue toutefois que ce développement indéfini pourrait avoir
                 des inconvénients inquiétants à la longue pour tout le monde).</p>                           
                 
