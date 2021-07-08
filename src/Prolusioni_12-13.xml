@@ -9,7 +9,7 @@
                 Prolusioni all'Università di Ginevra: versione elettronica <BR>"Prime tre conferenze"</BR> 
                 </title>
                 <respStmt>
-                    <resp>conversione TEI P5 a cura di </resp>
+                    <resp> Conversione TEI P5 a cura di </resp>
                     <name> Francesco Paolo Giumetti </name>
                     <name> Simone Bini </name>
                 </respStmt>
@@ -34,33 +34,33 @@
     <text>
         <body>
             <div xml:id="Foglio 12-13" xml:lang="fr">
-                <p xml:id="Pericope1"> <!-- Contenuto testuale --> du russe et du slave,
-                 comme M.<name type="person">N.Baudouin de Courtenay</name>,M.<name type="person">Kruszewski</name>.</p>
-                <p xml:id="Pericope2">Le<term xml:id="TERM1">point de vue</term> auquel nous sommes arrivès, Messieurs, et qui est simplement
+                <p xml:id="pericope1"> <!-- Contenuto testuale --> du russe et du slave,
+                 comme M.<name type="person">N.Baudouin de Courtenay</name>,M.<name type="person">Kruszewski</name>.&gt;</p>
+                <p xml:id="pericope2">&lt;Le<term xml:id="TERM1"> point de vue</term> auquel nous sommes arrivès, Messieurs, et qui est simplement
                  le <term xml:id="TDPV2">point de vue</term> dont s'inspire sans exception l'<term xml:id="TERM3">ètude de langues</term>
                  en toutes ses branches, fait voir très clairement qu'il n'y a 
                  pas de sèparation entre l'<term xml:id="TERM4">ètude du langage</term> et l'<term xml:id="TERM5">ètude des langues</term>,
                  ou l'ètude de telle ou telle <term xml:id="TERM6">langue</term> ou <term xml:id="TERM7">famille de langues</term>; mais que d'un autre còtè<!--modifica o di cotè-->
                  chaque division et subdivision de <term xml:id="TERM8">langue</term> reprèsente un document nouveau,
-                 et intèressant au mème titre que tout autre, pour le fait universel du <term xml:id="TERM9">langage</term>.</p>
-                <p xml:id="Pericope3">L'<name type="org">Universitè de Genève</name> a tenu dès le premier jour, et à bon droit,
+                 et intèressant au mème titre que tout autre, pour le fait universel du <term xml:id="TERM9">langage</term>.&gt;</p>
+                <p xml:id="pericope3">&lt;L'<name type="org">Universitè de Genève</name> a tenu dès le premier jour, et à bon droit,
                  à donner une place à la <term xml:id="TERM10">science du langage</term>; elle l'a fait en crèant le <name type="org">cours de Linguistique</name>
-                 et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au <term xml:id="TERM11">parler humain</term>.</p>                 
-                <p xml:id="Pericope4"> Il est presque inutile de dire que cet enseignement, <date from="15 ans">donnè depuis quinze ans</date>, avec une èrudition,
+                 et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au <term xml:id="TERM11">parler humain</term>.&gt;</p>                 
+                <p xml:id="pericope4"> &lt;Il est presque inutile de dire que cet enseignement, <date from="15 ans">donnè depuis quinze ans</date>, avec une èrudition,
                  une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,
                 -que cet enseignement n'a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
                  particulier comme celui qui se rapporte aux <term xml:id="TERM12">langues romanes</term>, ou aux <term xml:id="TERM13">langues germaniques</term>, ou aux
-                 <term xml:id="TERM14">langues indo-européennes</term>, ou aux <term xml:id="TERM15">langues sémitiques</term>, etc.></p> 
-                <p xml:id="Pericope5">Au contraire, il appelle autour de lui ces études particulières,
+                 <term xml:id="TERM14">langues indo-européennes</term>, ou aux <term xml:id="TERM15">langues sémitiques</term>, etc.&gt;</p> 
+                <p xml:id="pericope5">&lt;Au contraire, il appelle autour de lui ces études particulières,
                  et le témoignage le plus autorisé, en même temps que le plus agréable que j’en puisse apporter,
                  c’est que le nouveau <name type="org">cours de langues indo-européennes</name> créé par le <name type="org">Département de l’Instruction
                  Publique</name> l’a été en pleine conformité de vues avec <name type="person">l’éminent titulaire de la chaire de linguistique2</name><!--apice a nota (il 2)-->.</p>
-                <p xml:id="Pericope6">Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
+                <p xml:id="pericope6">Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
                 l’étude d’un certain <term xml:id="TERM16">groupe de langues</term>, plus aussi l’ensemble de ces études prendront de consistance par 
                 leur appui mutuel, et plus on apercevra <term xml:id="TERM17">les traits générauxde</term> la discipline, qui sont comme brisés et 
                 morcelés là où cessent tout à coup l’information, l’intérêt, et la vie par l’absence de disciples ou de 
                 maîtres.</p>
-                <p xml:id="Pericope7">Comme <term xml:id="TERM18">linguiste</term>, on sera certainement porté à souhaiter le développement 
+                <p xml:id="pericope7">Comme <term xml:id="TERM18">linguiste</term>, on sera certainement porté à souhaiter le développement 
                 indéfinides chaires de linguistique (j’avoue toutefois que ce développement indéfini pourrait avoir
                 des inconvénients inquiétants à la longue pour tout le monde).</p>                           
                 
