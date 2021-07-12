@@ -34,17 +34,16 @@
     <text>
         <body>
             <div xml:id="Foglio 12-13" xml:lang="fr">
-                <p xml:id="pericope1"> <!-- Contenuto testuale --> du russe et du slave,
-                 comme M.<name type="person">N.Baudouin de Courtenay</name>,M.<name type="person">Kruszewski</name>.&gt;</p>
-                <p xml:id="pericope2">&lt;Le<term xml:id="TERM1"> point de vue</term> auquel nous sommes arrivès, Messieurs, et qui est simplement
-                 le <term xml:id="TDPV2">point de vue</term> dont s'inspire sans exception l'<term xml:id="TERM3">ètude de langues</term>
-                 en toutes ses branches, fait voir très clairement qu'il n'y a 
-                 pas de sèparation entre l'<term xml:id="TERM4">ètude du langage</term> et l'<term xml:id="TERM5">ètude des langues</term>,
-                 ou l'ètude de telle ou telle <term xml:id="TERM6">langue</term> ou <term xml:id="TERM7">famille de langues</term>; mais que d'un autre còtè<!--modifica o di cotè-->
+                <p xml:id="pericope1"> <!-- Contenuto testuale -->du russe et du slave,
+                 comme M.<name type="person" key="A">N.Baudouin de Courtenay</name>, M.<name type="person" key="B">Kruszewski</name>,&gt;</p> <gap><del rend="overstrike" reason="indecifrabile"></del></gap>                                 
+                <p xml:id="pericope2">&lt;<space></space>Le<term xml:id="TERM1"> point de vue</term> auquel nous sommes arrivès, Messieurs, et qui est simplement
+                 le <term xml:id="TERM2">point de vue</term><gap><del rend="overstrike" reason="indecifrabile"></del></gap>dont s'inspire <add place="supralinear" resp="De Saussure">sans exception</add> l'<term xml:id="TERM3">ètude des langues</term>
+                 en toutes ses branches, fait voir très clairement qu'il n'y a pas de sèparation entre l'<term xml:id="TERM4">ètude du langage</term> et l'<term xml:id="TERM5">ètude des langues</term>,
+                 <gap><del hand="De Saussure" rend="overstrike"></del></gap>ou l'ètude de telle ou telle <term xml:id="TERM6">langue</term> ou <term xml:id="TERM7">famille de langues</term>; mais que d'un autre c&#212;tè
                  chaque division et subdivision de <term xml:id="TERM8">langue</term> reprèsente un document nouveau,
                  et intèressant au mème titre que tout autre, pour le fait universel du <term xml:id="TERM9">langage</term>.&gt;</p>
-                <p xml:id="pericope3">&lt;L'<name type="org">Universitè de Genève</name> a tenu dès le premier jour, et à bon droit,
-                 à donner une place à la <term xml:id="TERM10">science du langage</term>; elle l'a fait en crèant le <name type="org">cours de Linguistique</name>
+                <p xml:id="pericope3">&lt;L'<name type="org">Universitè de Genève</name> a tenu dès le premier jour, et à <gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea"> bon droit</add>,
+                 à donner une place à la <term xml:id="TERM10">science du langage</term>; <rs type="org">elle</rs> l'a fait en crèant le <name type="org">cours de Linguistique</name>
                  et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au <term xml:id="TERM11">parler humain</term>.&gt;</p>                 
                 <p xml:id="pericope4"> &lt;Il est presque inutile de dire que cet enseignement, <date from="15 ans">donnè depuis quinze ans</date>, avec une èrudition,
                  une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,
@@ -54,15 +53,16 @@
                 <p xml:id="pericope5">&lt;Au contraire, il appelle autour de lui ces études particulières,
                  et le témoignage le plus autorisé, en même temps que le plus agréable que j’en puisse apporter,
                  c’est que le nouveau <name type="org">cours de langues indo-européennes</name> créé par le <name type="org">Département de l’Instruction
-                 Publique</name> l’a été en pleine conformité de vues avec <name type="person">l’éminent titulaire de la chaire de linguistique2</name><!--apice a nota (il 2)-->.</p>
-                <p xml:id="pericope6">Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
-                l’étude d’un certain <term xml:id="TERM16">groupe de langues</term>, plus aussi l’ensemble de ces études prendront de consistance par 
+                 Publique</name> l’a été en pleine conformité de vues avec <name type="person">l’éminent titulaire de la chaire de linguistique&#178;</name>.&gt;</p>
+                <p xml:id="pericope6">&lt;Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
+                l’étude <gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea">d’un certain</add><term xml:id="TERM16">groupe de langues</term>, plus aussi l’ensemble de ces études prendront de consistance par 
                 leur appui mutuel, et plus on apercevra <term xml:id="TERM17">les traits générauxde</term> la discipline, qui sont comme brisés et 
                 morcelés là où cessent tout à coup l’information, l’intérêt, et la vie par l’absence de disciples ou de 
                 maîtres.</p>
-                <p xml:id="pericope7">Comme <term xml:id="TERM18">linguiste</term>, on sera certainement porté à souhaiter le développement 
-                indéfinides chaires de linguistique (j’avoue toutefois que ce développement indéfini pourrait avoir
-                des inconvénients inquiétants à la longue pour tout le monde).</p>                           
+                <p xml:id="pericope7">&gt;&lt;Comme <term xml:id="TERM18">linguiste</term>, on sera certainement porté à souhaiter le développement 
+                indéfinides chaires de linguistique (<gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea">j’avoue toutefois que ce développement</add> indéfini pourrait avoir
+                des inconvénients inquiétants à la longue pour tout le monde).&gt;</p>                     
+                                          
                 
             </div>
             <div xml:id="Traduzione italiana fogli 12-13" xml:lang="ita">
@@ -75,7 +75,7 @@
                 ma che d’altro canto ogni divisione e suddivisione di lingua rappresenta un documento nuovo,
                 e interessante allo stesso titolo di qualunque altro, per il fatto universale del linguaggio.</p>
                 <p xml:id="Traduzione pericope 3">L’Università di Ginevra ha tenuto dal primo giorno, e a giusto titolo, a offrire un posto alla
-                cienza del linguaggio; l’ha fatto creando il corso di Linguistica e ha così ricompreso sotto un nome
+                scienza del linguaggio; l’ha fatto creando il corso di Linguistica e ha così ricompreso sotto un nome
                 più che adeguato l’insieme degli studi relativi al parlare [parler] umano.</p>
                 <p xml:id="Traduzione pericope 4">È quasi inutile dire che questo insegnamento, professato da quindici anni,
                 con un’erudizione, un’esperienza che voi non vi potrete mai aspettare da queste conferenze,
