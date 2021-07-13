@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="tei-lite.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/10">
     <teiHeader>
@@ -9,24 +9,59 @@
                 Prolusioni all'Università di Ginevra: versione elettronica <BR>"Prime tre conferenze"</BR> 
                 </title>
                 <respStmt>
-                    <resp> Conversione TEI P5 a cura di </resp>
+                    <resp>Conversione TEI P5 a cura di </resp>
                     <name> Francesco Paolo Giumetti </name>
-                    <name> Simone Bini </name>
+                    <name n='2'> Simone Bini </name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <p id="1">Edizione Francese: Bouquet-Engler 2002: pp.143-172</p>
-                <p id="2">Edizione Italiana: Basata sull'edizione Bouquet-Engler 2002, con note di commento parziale in E.Fadda 2006</p>
+                Edizione Francese: Bouquet-Engler 2002: pp.143-172
+                Edizione Italiana: Basata sull'edizione Bouquet-Engler 2002, con note di commento parziale in E.Fadda 2006
             </editionStmt>   
             <publicationStmt>
                 <!-- Sezione per la codifica dei dati di diffusione e distribuzione dell'edizione-->
                 <publishe>Università di Pisa</publishe>
                 <date>2021-06-28</date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc>                
                 <!-- Descrizione della fonte primaria-->
-                <title>Prolusioni all'Università di Ginevra</title>
-                <author>Ferdinand de Saussure (1857-1913)</author>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Ginevra</settlement>
+                        <repository>Biblioteca di Ginevra</repository> 
+                         <idno>BGE Ms. fr. 3951/1.1-3; la sequenza deve essere quella indicata con cifre arabe nel manoscritto.
+                         </idno>                         
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Ferdinand de Saussure</author>
+                            <title>PROLUSIONI ALL’UNIVERSITÀ DI GINEVRA 91Aaaa001
+                                PRIME TRE CONFERENZE.
+                                Lezioni del 06novembre 1891 –10 novembre 1891 -*13 novembre 1891
+                            </title>
+                        </msItem>
+                    </msContents> 
+                    <physDesc>
+                        <objectDesc>
+                            <p>Tipo: Appunti per le prime conferenze all’Università di Ginevra,
+                             in parte utilizzati per le prime lezioni del corso di Phonétique du grec et du latin1891.
+                             Probabilmente destinati alla pubblicazione di una brochure.</p>
+                             <p>Date delle prime tre lezioni del corso
+                             di Phonétique du grec et du latinricostruitecfr. Chidichimo, 2009, CFS 62.</p>
+                             <p>Testo in redazione quasi finale,
+                             con correzioni, cancellature, aggiunte interlinearie frasi incomplete. </p>
+                             <p>Tabella struttura del testo, pericopi e rapporto con i manoscritti.</p>
+                             <p>Edizione 
+                             francese (pericopi, tag e annotazioni) e traduzione italiana (pericopi) a fronte .                      
+                            
+                            
+                            </p>
+                        </objectDesc>
+                    </physDesc>              
+                
+                
+                </msDesc>
+                
                 
             </sourceDesc>
         </fileDesc>
@@ -34,36 +69,37 @@
     <text>
         <body>
             <div xml:id="Foglio 12-13" xml:lang="fr">
-                <p xml:id="pericope1"> <!-- Contenuto testuale -->du russe et du slave,
-                 comme M.<name type="person" key="A">N.Baudouin de Courtenay</name>, M.<name type="person" key="B">Kruszewski</name>,&gt;</p> <gap><del rend="overstrike" reason="indecifrabile"></del></gap>                                 
-                <p xml:id="pericope2">&lt;<space></space>Le<term xml:id="TERM1"> point de vue</term> auquel nous sommes arrivès, Messieurs, et qui est simplement
-                 le <term xml:id="TERM2">point de vue</term><gap><del rend="overstrike" reason="indecifrabile"></del></gap>dont s'inspire <add place="supralinear" resp="De Saussure">sans exception</add> l'<term xml:id="TERM3">ètude des langues</term>
-                 en toutes ses branches, fait voir très clairement qu'il n'y a pas de sèparation entre l'<term xml:id="TERM4">ètude du langage</term> et l'<term xml:id="TERM5">ètude des langues</term>,
-                 <gap><del hand="De Saussure" rend="overstrike"></del></gap>ou l'ètude de telle ou telle <term xml:id="TERM6">langue</term> ou <term xml:id="TERM7">famille de langues</term>; mais que d'un autre c&#212;tè
-                 chaque division et subdivision de <term xml:id="TERM8">langue</term> reprèsente un document nouveau,
-                 et intèressant au mème titre que tout autre, pour le fait universel du <term xml:id="TERM9">langage</term>.&gt;</p>
-                <p xml:id="pericope3">&lt;L'<name type="org">Universitè de Genève</name> a tenu dès le premier jour, et à <gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea"> bon droit</add>,
-                 à donner une place à la <term xml:id="TERM10">science du langage</term>; <rs type="org">elle</rs> l'a fait en crèant le <name type="org">cours de Linguistique</name>
-                 et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au <term xml:id="TERM11">parler humain</term>.&gt;</p>                 
-                <p xml:id="pericope4"> &lt;Il est presque inutile de dire que cet enseignement, <date from="15 ans">donnè depuis quinze ans</date>, avec une èrudition,
-                 une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,
-                -que cet enseignement n'a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
-                 particulier comme celui qui se rapporte aux <term xml:id="TERM12">langues romanes</term>, ou aux <term xml:id="TERM13">langues germaniques</term>, ou aux
+                <p xml:id="pericope1"><l>du russe et du slave,
+                 comme M.</l><name type="person" key="A" n="1">N.Baudouin de Courtenay</name><l n="1">, M.</l><name type="person" n="2">Kruszewski</name>.&gt;</p>
+                 <gap><del rend="overstrike" reason="indecifrabile"></del></gap> 
+                <p xml:id="pericope2">&lt;<l n='2'><space></space>Le</l><term xml:id="TERM1"> point de vue</term><l n='3'> auquel nous sommes arrivès, Messieurs, et qui est simplement
+                 le</l> <term xml:id="TDPV2"> point de vue</term><gap><del rend="overstrike" reason="indecifrabile"></del></gap>
+                 <l n='4'> dont s'inspire<add place="supralinear" resp="De Saussure"> sans exception l'</add></l><term xml:id="TERM3"> ètude de langues</term>
+                 <l n='5'> en toutes ses branches,</l><l n='6'> fait voir très clairement qu'il n'y a 
+                 pas de sèparation entre l'</l><term xml:id="TERM4"> ètude du langage</term><l n='7'> et l'</l><term xml:id="TERM5">ètude des langues</term>,
+                 <l n='8'> ou l'ètude de telle ou telle </l> <term xml:id="TERM6">langue</term> ou <term xml:id="TERM7">famille de langues</term><l n='9'> ; mais que d'un autre còtè<!--modifica o di cotè-->
+                 chaque division et subdivision de </l> <term xml:id="TERM8"> langue</term> <l n='10'> reprèsente un document nouveau,
+                 et intèressant au mème titre que tout autre, pour le fait universel du </l> <term xml:id="TERM9">langage</term>.&gt;</p>
+                <p xml:id="pericope3">&lt;L'<name type="org">Universitè de Genève</name><l n='11'> a tenu dès le premier jour,  et à <gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea"> bon droit</add>, 
+                 à donner une place à la </l> <term xml:id="TERM10">science du langage</term><l n='12'> ; elle l'a fait en crèant le </l> <name type="org" n='2'>cours de Linguistique</name>
+                 <l n='13' > et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au </l> <term xml:id="TERM11">parler humain</term>.&gt;</p>                 
+                <p xml:id="pericope4"> &lt; <l n='14'>Il est presque inutile de dire que cet enseignement, </l> <date xml:id="date1" from="15 ans">donnè depuis quinze ans</date><l n='15'>, avec une èrudition,
+                 une expèrience que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,</l>
+                <l n='16'>-que cet enseignement n'</l><l n='17'>a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
+                 particulier comme celui qui se rapporte aux</l> <term xml:id="TERM12"> langues romanes</term>, ou aux <term xml:id="TERM13">langues germaniques</term>, ou aux
                  <term xml:id="TERM14">langues indo-européennes</term>, ou aux <term xml:id="TERM15">langues sémitiques</term>, etc.&gt;</p> 
-                <p xml:id="pericope5">&lt;Au contraire, il appelle autour de lui ces études particulières,
-                 et le témoignage le plus autorisé, en même temps que le plus agréable que j’en puisse apporter,
-                 c’est que le nouveau <name type="org">cours de langues indo-européennes</name> créé par le <name type="org">Département de l’Instruction
-                 Publique</name> l’a été en pleine conformité de vues avec <name type="person">l’éminent titulaire de la chaire de linguistique&#178;</name>.&gt;</p>
-                <p xml:id="pericope6">&lt;Plus on aura dans un même centre académique de spécialités linguistiques vouées à 
-                l’étude <gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea">d’un certain</add><term xml:id="TERM16">groupe de langues</term>, plus aussi l’ensemble de ces études prendront de consistance par 
-                leur appui mutuel, et plus on apercevra <term xml:id="TERM17">les traits générauxde</term> la discipline, qui sont comme brisés et 
-                morcelés là où cessent tout à coup l’information, l’intérêt, et la vie par l’absence de disciples ou de 
-                maîtres.<gap><del rend="overstrike" reason="indecifrabile"></del></gap></p>
-                <p xml:id="pericope7">&gt;&lt;Comme <term xml:id="TERM18">linguiste</term>, on sera certainement porté à souhaiter le développement 
+                <p xml:id="pericope5">&lt; <l n='18'>Au contraire, il appelle autour de lui ces études particulières,
+                 et le témoignage le plus autorisé, en même temps que le </l><l n='19'> plus agréable que j’en puisse apporter,</l>
+                 c’est que le nouveau <name n='3' type="org">cours de langues indo-européennes</name> créé par le <name n ='4' type="org">Département de l’Instruction
+                 Publique</name><l n='20'> l’a été en pleine conformité de vues avec </l> <name n='5' type="person">l’éminent titulaire de la chaire de linguistique&#178;</name><!--apice a nota (il 2)-->.</p>
+                <p xml:id="pericope6"><l n='21'>Plus on aura dans un même centre académique de spéci</l><l n='22'>alités linguistiques vouées à 
+                l’étude d'un</l> <gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea"> d’un certain</add> <term xml:id="TERM16">groupe de langues</term><l n='23'>, plus aussi</l><l n='24'> l’ensemble de ces études prendront de consistance par 
+                leur appui mutuel, et plus on apercevra</l> <term xml:id="TERM17"> les traits générauxde </term><l n='25'> la discipline, qui sont comme brisés et 
+                morcelés là où cessent</l><l n='26'> tout à coup l’information, l’intérêt, et la vie par</l><l n='27'> l’absence de disciples ou de 
+                maîtres.<gap><del rend="overstrike" reason="indecifrabile"></del></gap></l></p>
+                <p xml:id="pericope7">Comme <term xml:id="TERM18"> linguiste</term><l n='28'>, on sera certainement porté à souhaiter le développement 
                 indéfinides chaires de linguistique (<gap><del hand="De Saussure"></del></gap><add hand="De Saussure" place="sopralinea">j’avoue toutefois que ce développement</add> indéfini pourrait avoir
-                des inconvénients inquiétants à la longue pour tout le monde).&gt;</p>                     
-                                          
-                
+                des inconvénients inquiétants à la longue pour tout le monde).</l></p>                           
             </div>
             <div xml:id="Traduzione italiana fogli 12-13" xml:lang="ita">
                 <p xml:id="Traduzione pericope 1">del russo e dello slavo, come N. Baudouin 
@@ -75,7 +111,7 @@
                 ma che d’altro canto ogni divisione e suddivisione di lingua rappresenta un documento nuovo,
                 e interessante allo stesso titolo di qualunque altro, per il fatto universale del linguaggio.</p>
                 <p xml:id="Traduzione pericope 3">L’Università di Ginevra ha tenuto dal primo giorno, e a giusto titolo, a offrire un posto alla
-                scienza del linguaggio; l’ha fatto creando il corso di Linguistica e ha così ricompreso sotto un nome
+                cienza del linguaggio; l’ha fatto creando il corso di Linguistica e ha così ricompreso sotto un nome
                 più che adeguato l’insieme degli studi relativi al parlare [parler] umano.</p>
                 <p xml:id="Traduzione pericope 4">È quasi inutile dire che questo insegnamento, professato da quindici anni,
                 con un’erudizione, un’esperienza che voi non vi potrete mai aspettare da queste conferenze,
@@ -137,7 +173,8 @@
     </sourceDoc>
     <sourceDoc xml:id="pagina 13">
         <surface>
-            <graphic url='https://github.com/francescopaolo1991/Giumetti_Bini/blob/main/src/pagina%2013.png' width='845.666666px' height='593.666666px'/>
+
+            <graphic url='pagina 13.png' width='845.666666px' height='593.666666px' />
             <zone ulx="218" uly="72" lrx="624" lry="527" />
                 <line>ou aux langues germaniques, ou aux</line>
                 <line>langues indo-européennes, ou aux langues sémitiques, etc.</line>
@@ -164,6 +201,7 @@
                 <line>(j’avoue toutefois que ce développement indéfini</line>
                 <line>pourrait avoir des inconvénients</line>
                 <line>inquiétants à la longue pour tout le monde).</line>
+
 
         </surface>  
     
