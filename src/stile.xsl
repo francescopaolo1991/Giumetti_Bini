@@ -48,6 +48,16 @@
                         font-size:20px;
 
                          }
+                         .footer{
+                            position:absolute;
+                            margin-top:1430px;
+                            display:block;
+                            font-size:20px;
+                            padding:15px;
+                             border-style:solid;
+                            border-width:2px;
+
+                         }
 
                         #person {
                         background-color:DeepPink;    
@@ -105,7 +115,8 @@
                                      <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno" />
                                     </p>
                                     <p>
-                                    <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt" />
+                                    <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt" /><br/>
+                                    <a href="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1">Immagini Facsimili:https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1</a>
                                     </p>
                             </div>
 
@@ -276,14 +287,19 @@
                             <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 4']"/><span id="pericope">&gt; </span></p>
                             <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 5']"/><span id="pericope">&gt; </span></p>
                             <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 6']"/><span id="pericope">&gt; </span></p>
-                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 7']"/></p><span id="pericope">&gt; </span>  
-
-                        
+                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 7']"/><span id="pericope">&gt; </span> </p>                   
                         
                         
                         
                         
                         </div>
+                        <div class="footer">
+                            <p id="note">>&#178; Scilicet Jospeh Wertheimer (Soultz, Alsazia, 22.05.1833 –Ginevra 27.04.1908). 
+                        Fu il primo rabbino capo di Ginevra (1859-1908) e professore di filologia e linguistica all’Università
+                         di Ginevra (1873-1906). Fonte: DSSonline <a href="https://hls-dhs-dss.ch/it/articles/014933/2013-07-03/">https://hls-dhs-dss.ch/it/articles/014933/2013-07-03/</a>
+                            </p>
+                        </div>
+   
                     </body>      
         
         
