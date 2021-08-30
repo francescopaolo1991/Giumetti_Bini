@@ -3,7 +3,7 @@
     xmlns="http://www.w3.org/1999/xhtml" 
     xmlns:html="http://www.w3.org/1999/xhtml" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/10">
+    xmlns:tei="http://www.tei-c.org/ns/1.0">
 
     <xsl:output method="html" encoding="UTF-8" indent="yes" />    
     <xsl:template match="/">
@@ -161,7 +161,7 @@
                         
                              <div class="left">
                             <xsl:for-each select="//tei:p[@xml:id='pericope1']">
-                            <p> <i><a href="pag12.png">{f.12}</a></i>
+                            <p> <i><a href="https://github.com/francescopaolo1991/Giumetti_Bini/blob/main/src/pag12.png">{f.12}</a></i>
                                 <xsl:value-of select="./tei:l"/>
                                 <span id="person"><xsl:value-of select="//tei:p[@xml:id='pericope1']/tei:name[@n='1']"/></span>
                                 <xsl:value-of select="./tei:l[@n='1']"/>
@@ -219,7 +219,7 @@
                                 <i><xsl:value-of select="./tei:l[@n='16']"/></i>
                                 <xsl:value-of select="./tei:l[@n='17']"/>
                                 <span id="term"><xsl:value-of select="//tei:p[@xml:id='pericope4']/tei:term[@xml:id='TERM12']"/></span>
-                                <i>,<a href="pagina 13.png"> {f.13}</a></i>, ou aux
+                                <i>,<a href="https://github.com/francescopaolo1991/Giumetti_Bini/blob/main/src/pagina%2013.png"> {f.13}</a></i>, ou aux
                                 <span id="term"><xsl:value-of select="//tei:p[@xml:id='pericope4']/tei:term[@xml:id='TERM13']"/></span>
                                 , ou aux
                                 <span id="term"><xsl:value-of select="//tei:p[@xml:id='pericope4']/tei:term[@xml:id='TERM14']"/></span>
@@ -281,13 +281,13 @@
                         </div>
 
                         <div class="right">
-                            <p><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 1']"/><span id="pericope">&gt; </span></p>
-                            <p> <span id="pericope"> &lt;</span>  Il<xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 2']"/><span id="pericope">&gt; </span></p>
-                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 3']"/><span id="pericope">&gt; </span></p>
-                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 4']"/><span id="pericope">&gt; </span></p>
-                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 5']"/><span id="pericope">&gt; </span></p>
-                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 6']"/><span id="pericope">&gt; </span></p>
-                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@xml:id='Traduzione pericope 7']"/><span id="pericope">&gt; </span> </p>                   
+                            <p><xsl:value-of select="//tei:p[@n='Traduzione pericope 1']"/><span id="pericope">&gt; </span></p>
+                            <p> <span id="pericope"> &lt;</span>  Il<xsl:value-of select="//tei:p[@n='Traduzione pericope 2']"/><span id="pericope">&gt; </span></p>
+                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@n='Traduzione pericope 3']"/><span id="pericope">&gt; </span></p>
+                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@n='Traduzione pericope 4']"/><span id="pericope">&gt; </span></p>
+                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@n='Traduzione pericope 5']"/><span id="pericope">&gt; </span></p>
+                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@n='Traduzione pericope 6']"/><span id="pericope">&gt; </span></p>
+                            <p> <span id="pericope"> &lt;</span><xsl:value-of select="//tei:p[@n='Traduzione pericope 7']"/><span id="pericope">&gt; </span> </p>                   
                         
                         
                         
