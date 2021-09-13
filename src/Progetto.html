@@ -1,0 +1,242 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style>
+                         h1{
+                        color:blue;
+                        text-align:center;
+                         }
+                         h2{
+                              text-align:center;
+
+                         }
+                         .index{
+                                 margin:60px;
+                                padding:80px;
+                                font-size:18px;
+                                text-align:justify;
+                         }
+                         .left {
+                        position:absolute;
+                        left:0px;     
+                        width:45%;
+                        border-style:solid;
+                        border-width:2px;
+                        text-align:justify;
+                        margin:20px;
+                        padding:15px;
+                        font-size:20px;
+                         }
+                         .right {
+                        position:absolute;
+                        right:0px;
+                             width:45%;
+                        border-style:solid;
+                        border-width:2px;
+                        text-align:justify;
+                        margin:20px;
+                        padding:15px;
+                        font-size:20px;
+
+                         }
+                         .footer{
+                            position:absolute;
+                            margin-top:1430px;
+                            display:block;
+                            font-size:20px;
+                            padding:15px;
+                             border-style:solid;
+                            border-width:2px;
+
+                         }
+
+                        #person {
+                        background-color:DeepPink;    
+
+                        }
+                        #term{
+                        background-color:yellow; 
+                        }
+                        #org{
+                            background-color:DarkMagenta; 
+                        }
+                        #location{
+                            background-color:FireBrick;
+
+                        }
+                        #date{
+                            background-color:green;
+                        }
+                        #pericope{
+                             background-color:grey;
+                        }
+                        table, th, td {
+                             border: 1px solid black;
+                             width:100%;
+                             font-size:20px;
+                        }
+                        #bibl{
+
+                             background-color:Chartreuse;
+                        }
+                        #example{
+                             background-color:Aqua;
+
+                            
+                        }
+
+                
+                        </style>
+   </head>
+   <body>
+      <h1>Progetto Esame Codifica di Testi anno 2020-21</h1>
+      <h2>Conversione TEI P5 a cura di </h2>
+      <h2> Francesco Paolo Giumetti </h2>
+      <h2> Simone Bini </h2>
+      <div class="index">
+         <p><b>PROLUSIONI ALL’UNIVERSITÀ DI GINEVRA 91Aaaa001
+               PRIME TRE CONFERENZE.
+               Lezioni del 06novembre 1891 –10 novembre 1891 -*13 novembre 1891
+               </b></p>
+         <p>Tipo: Appunti per le prime conferenze all’Università di Ginevra,
+            in parte utilizzati per le prime lezioni del corso di Phonétique du grec et du latin1891.
+            Probabilmente destinati alla pubblicazione di una brochure.Date delle prime tre lezioni
+            del corso
+            di Phonétique du grec et du latinricostruitecfr. Chidichimo, 2009, CFS 62.Testo in
+            redazione quasi finale,
+            con correzioni, cancellature, aggiunte interlinearie frasi incomplete. Tabella struttura
+            del testo, pericopi e rapporto con i manoscritti.Edizione 
+            francese (pericopi, tag e annotazioni) e traduzione italiana (pericopi) a fronte .
+            
+            
+            
+            </p>
+         <p>BGE Ms. fr. 3951/1.1-3; la sequenza deve essere quella indicata con cifre arabe nel
+            manoscritto.
+            </p>
+         <p> Edizione Francese: Bouquet-Engler 2002: pp.143-172
+            Edizione Italiana: Basata sull'edizione Bouquet-Engler 2002, con note di commento
+            parziale in E.Fadda 2006<br><a href="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1">Immagini Facsimili:https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1</a></p>
+      </div>
+      <div class="table">
+         <table>
+            <th><b>Didascalia dei tag</b></th>
+            <tr>
+               <td>Pericope<br><span id="example">Esempio linguistico : “pater[latino]”</span><br><span id="bibl">Riferimento bibliografico o allusione bibliografica</span><br><span id="person">Antroponimo</span><br><span id="location">Toponimo</span><br><span id="org">Istituzione</span><br><span id="date">Data o evento databile</span><br><span id="term">Elemento Linguistico</span> (per ciascuna occorrenza
+                  se presente in simple_FdS collegare quest’ultima all’occorrenza presente nel testo)
+                  
+                  </td>
+               <tr>
+                  <td>1.{f. X} indica ilnumero del foglio manoscritto,
+                     posto all’inizio del testo<br>2. [+ TAGX] eventuale doppio
+                     tagsull’elemento che precede specificato con il colore
+                     assegnato al tag<br>3. Nelle note, solo per alcuni elementi
+                     a mo’ di esempio, si precisano le informazioni
+                     essenzialidi un elemento taggato. Lo studente può
+                     integrare altri elementi, specie le entità nominate quali
+                     toponimi, antroponimi etc., con le informazioni presenti nel commento di Tullio De
+                     Mauro</td>
+               </tr>
+            </tr>
+         </table>
+         <h2> Codice archivistico “BGE 3951/1.1”<br>Edizione francese (pericopi, tag e annotazioni) e traduzione
+            italiana (pericopi) a fronte<br>Fogli 12-13  </h2>
+      </div>
+      <div class="left">
+         <p><i><a href="https://github.com/francescopaolo1991/Giumetti_Bini/blob/main/src/pag12.png">{f.12}</a></i>du russe et du slave,
+            comme M.<span id="person">N.Baudouin de Courtenay</span><span id="person">Kruszewski</span>
+            . <span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>Le<span id="term"> point de vue</span> auquel nous sommes arrivès, Messieurs, et qui est simplement
+            le<span id="term"></span><i> dont s'inspire sans exception l'</i><span id="term"> ètude de langues</span> en toutes ses branches,<i> fait voir très clairement qu'il n'y a 
+               pas de sèparation entre l'</i><span id="term"> ètude du langage</span> et l'<span id="term">ètude des langues</span> ou l'ètude de telle ou telle <span id="term">langue</span>
+            ou <span id="term"></span> ; mais que d'un autre côtè
+            chaque  division et subdivision de <span id="term"> langue</span> reprèsente un document nouveau,
+            et intèressant au mème titre que tout autre, pour le fait universel du <span id="term">langage</span>.
+            <span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span> 
+            L' <span id="org">Universitè de Genève</span> a tenu dès le premier jour,  et à  bon droit, 
+            à donner une place  à la <span id="term">science du langage</span> ; elle l'a fait en crèant le <span id="org">cours de Linguistique</span> et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au <span id="term">parler humain</span>.
+            <span id="pericope">&gt; </span></p>
+         <p><span id="pericope">&lt;</span>Il est presque inutile de dire que cet enseignement, <span id="date">donnè depuis quinze ans</span>, avec une èrudition,
+            une expèrience  que vous ne vous attendez pas un seul instant à retrouver dans ces
+            confèrences,<i>-que cet enseignement n'</i>a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
+            particulier comme celui qui se rapporte aux<span id="term"> langues romanes</span><i>,<a href="https://github.com/francescopaolo1991/Giumetti_Bini/blob/main/src/pagina%2013.png"> {f.13}</a></i>, ou aux
+            <span id="term">langues germaniques</span>
+            , ou aux
+            <span id="term">langues indo-européennes</span>
+            , ou aux
+            <span id="term">langues sémitiques</span>
+            , etc.
+            <span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>Au contraire, il appelle autour de lui ces études particulières,
+            et le témoignage le plus autorisé, en même temps que le <i> plus agréable que j’en puisse apporter,</i>
+            c’est que le nouveau
+            <span id="org">cours de langues indo-européennes</span>
+            créé par le 
+            <span id="org">Département de l’Instruction
+               Publique</span> l’a été en pleine conformité de vues avec <span id="person">l’éminent titulaire de la chaire de linguistique²</span><span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>Plus on aura dans un même centre académique de <i>spécialités linguistiques vouées à 
+               l’étude d'un</i> certain
+            <span id="term">groupe de langues</span><i>, plus aussi</i> l’ensemble de ces études prendront de consistance par 
+            leur appui mutuel, et plus on apercevra<span id="term"> les traits générauxde </span> la discipline, qui sont comme brisés et 
+            morcelés là où cessent<i> tout à coup l’information, l’intérêt, et la vie par</i> l’absence de disciples ou de 
+            maîtres.<span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span> 
+            Comme
+            <span id="term"> linguiste</span>, on sera certainement porté à souhaiter le développement 
+            indéfinides chaires de linguistique (j’avoue toutefois que ce développement indéfini
+            pourrait avoir
+            des inconvénients inquiétants à la longue pour tout le monde).<span id="pericope">&gt; </span></p>
+      </div>
+      <div class="right">
+         <p>del russo e dello slavo, come N. Baudouin 
+            de Courtenay e Kruszewski.<span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>  Il punto di vista al quale siamo giunti, Signori, e che è semplicemente 
+            il punto di vista cui s’ispira, senza eccezione, lo studio delle lingue, 
+            in ogni sua branca, mostra molto chiaramente che non c’è separazione tra lo studio
+            del linguaggio e lo studio delle lingue, o lo studio di questa o quella famiglia di
+            lingue;
+            ma che d’altro canto ogni divisione e suddivisione di lingua rappresenta un documento
+            nuovo,
+            e interessante allo stesso titolo di qualunque altro, per il fatto universale del
+            linguaggio.<span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>L’Università di Ginevra ha tenuto dal primo giorno, e a giusto titolo, a offrire un
+            posto alla
+            cienza del linguaggio; l’ha fatto creando il corso di Linguistica e ha così ricompreso
+            sotto un nome
+            più che adeguato l’insieme degli studi relativi al parlare [parler] umano.<span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>È quasi inutile dire che questo insegnamento, professato da quindici anni,
+            con un’erudizione, un’esperienza che voi non vi potrete mai aspettare da queste conferenze,
+            –che questo insegnamento non ha mai avuto nulla nel suo programma che potesse escludere
+            qualche corpo
+            di studi particolari come quello che si riferisce alle lingue romanze, o alle lingue
+            germaniche,
+            o alle lingue indoeuropee, o alle lingue semitiche, ecc.<span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>Al contrario,esso favorisce l’insorgere di tali studi particolari,
+            e la testimonianza più autorizzata, e allo stesso tempo la più gradevole che ne posso
+            dare, 
+            è data dal fatto che il nuovo corso di lingue indoeuropee creato dal Dipartimento
+            d’Istruzione Pubblica
+            è stato fatto in piena conformità di vedute con l’eminente titolare della cattedra
+            di linguistica.<span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>Più si avrà, in uno stesso centro accademico, una molteplicità di specializzazioni
+            linguistiche votate allo studio di un certo gruppo di lingue, più a loro volta tali
+            studi assumeranno 
+            consistenza appoggiandosi l’uno all’altro, e più si comprenderanno i tratti generali
+            della disciplina, 
+            che sono come rotti e spezzettati là ove d’un tratto vengono meno l’informazione,
+            l’interesse e la vita 
+            per l’assenza di discepoli o di maestri.<span id="pericope">&gt; </span></p>
+         <p><span id="pericope"> &lt;</span>Come linguisti, si sarà certamente portati ad augurarsi lo sviluppo 
+            indefinito delle cattedre di linguistica (confesso tuttavia che tale sviluppo indefinito
+            potrebbe avere 
+            degli inconvenienti inquietanti, nel lungo periodo, per tutti).<span id="pericope">&gt; </span></p>
+      </div>
+      <div class="footer">
+         <p id="note">&gt;² Scilicet Jospeh Wertheimer (Soultz, Alsazia, 22.05.1833 –Ginevra 27.04.1908). 
+            Fu il primo rabbino capo di Ginevra (1859-1908) e professore di filologia e linguistica
+            all’Università
+            di Ginevra (1873-1906). Fonte: DSSonline <a href="https://hls-dhs-dss.ch/it/articles/014933/2013-07-03/">https://hls-dhs-dss.ch/it/articles/014933/2013-07-03/</a></p>
+      </div>
+   </body>
+</html>
